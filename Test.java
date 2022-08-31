@@ -77,7 +77,8 @@ public class Test {
             System.out.println(e.getMessage());
         }
     } // Сортировка чисел по возрастанию
-    public static void writeMinString(String outputFile, boolean ascendingSort) {
+    public static void writeMinString(String outputFile, boolean ascendingSort)
+    {
         try(FileWriter writer = new FileWriter(outputFile)){
             while (countInputFiles != 0) {
                 String min = "";
